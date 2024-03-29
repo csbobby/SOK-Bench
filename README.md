@@ -29,6 +29,15 @@ With a corpus of both explicit situated facts and implicit commonsense, we gener
 <img src="imgs/fig_qa_examples.png" width="800" >
 </div>
 
+Please link back and cite the work if you would like to use the website template.
+```BibTeX
+@inproceedings{SOK_Bench,
+author={Wang*, Andong and Wu*, Bo and Chen, Sunli and Chen, Zhenfang and Guan, Haotian and Lee, Wei-Ning and Li, Erran Li and Tenenbaum, Joshua B and Gan, Chuang},
+title = {SOK-Bench: A Situated Video Reasoning Benchmark with Aligned Open-World Knowledge},
+booktitle = {The IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+year = {2024}
+}
+```
 
 
 
