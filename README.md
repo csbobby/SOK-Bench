@@ -1,34 +1,38 @@
-# Project Title
-Abstract: A novel research repository
+# SOK-Bench
+**[CVPR 2024] SOK-Bench: A Situated Video Reasoning Benchmark with Aligned Open-World Knowledge**
 
-- [Overview](#overview)
-  - [Introduction](#introduction)
-  - [Method](#method)
-  - [Result](#result)
-- [Implementation](#implementation)
-  - [Config](#config)
-  - [Data](#data)
-  - [Start to Run](#start-to-run)
-  - [Train a model](#train-a-model)
-  - [Checkpoints](#checkpoints)
-- [Citation](#citation)
+<!-- 
+Reasoning from visual dynamics scenes has many real-world applications. However, existing video reasoning benchmarks are still inadequate since they were mainly designed for factual or situated reasoning and rarely involve broader knowledge in the real world.
+-->
 
-## Overview
-### Introduction
-### Task
-### Method
-### Result
+Our work aims to delve deeper into reasoning evaluations, specifically within dynamic, open-world, and structured context knowledge. 
+We propose a new benchmark, consisting of 44K questions and 10K situations with instance-level annotations depicted in the videos. The reasoning process is required to understand and apply situated knowledge and general knowledge for problem-solving.
+Concretely, we first extract observable situated entities, relations, and processes from videos for situated knowledge and then extend to open-world knowledge beyond the visible content. 
+The task generation is facilitated through multiple dialogues as iterations and subsequently corrected and refined by our designed self-promptings and demonstrations.
+With a corpus of both explicit situated facts and implicit commonsense, we generate associated question-answer pairs and reasoning processes, finally followed by manual reviews for quality assurance.
 
-## Implementation
-### Config
-```
-pip install -r requirements.txt
-```
-### Data
-### Start to Run
-Start to explore the models, please run these [scripts](https://github.com/csbobby/XXXX).
-### Train a model
-### Checkpoints
-Download the trained [models]()
+## Benchmark Overview
+* 44k Situated Questions
+* 12 Qutestion Types
+* 10k Situation Video Clips
+* Situation Commonsense Knowledge Graphs
+* Chain of Reasoning Rationals
+
+<div align="center">
+<img src="imgs/fig_overview.png" width="800" >
+</div>
+
+
+## Data Example
+
+<div align="center">
+<img src="imgs/fig_qa_examples.png" width="800" >
+</div>
+
+
+
+
+
+
 
 ## Citation
