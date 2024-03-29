@@ -29,6 +29,8 @@ With a corpus of both explicit situated facts and implicit commonsense, we gener
 <img src="imgs/fig_qa_examples.png" width="800" >
 </div>
 
+
+## Citation
 Please link back and cite the work if you would like to use the website template.
 ```BibTeX
 @inproceedings{SOK_Bench,
@@ -39,9 +41,3 @@ year = {2024}
 }
 ```
 
-
-
-
-
-
-## Citation
