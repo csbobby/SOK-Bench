@@ -28,11 +28,11 @@ With a corpus of both explicit situated facts and implicit commonsense, we gener
 <img src="imgs/fig_qa_examples.png" width="800" >
 </div>
 
-## Download Benchmark
-Please download the dataset ```sok-benmark.json``` from [Google Drive](https://drive.google.com/file/d/1jWPY4yF-iBChvfN4MmlhXRhUJLySXRne/view?usp=sharing)
+## Data Download
+Please download the dataset ```sok-bench.json``` from [Google Drive](https://drive.google.com/file/d/1jWPY4yF-iBChvfN4MmlhXRhUJLySXRne/view?usp=sharing)
 
 ## Dataset Format
-We briefly describe the format in ```sok-benmark.json```(downloaded from Google Drive) here. The collection of questions is organized as a dict:
+We briefly describe the format in ```sok-bench.json```(downloaded from Google Drive) here. The collection of questions is organized as a dict:
 ```python
 {"type": list_of_questions_in_that_type}
 ```
