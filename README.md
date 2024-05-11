@@ -22,13 +22,63 @@ With a corpus of both explicit situated facts and implicit commonsense, we gener
 <img src="imgs/fig_overview.png" width="800" >
 </div>
 
-
-## Data Example
+## Benchmark QA Example
 
 <div align="center">
 <img src="imgs/fig_qa_examples.png" width="800" >
 </div>
 
+## Download Benchmark
+Please download the dataset from [Google Drive](https://drive.google.com/file/d/1jWPY4yF-iBChvfN4MmlhXRhUJLySXRne/view?usp=sharing)
+
+## Benchmark format
+We briefly describe the format in ```sok-benmark.json``` here. The collection of questions is organized as a dict:
+```python
+{"type": list_of_questions_in_that_type}
+```
+Each question itself is a dict with the following entries:
+```python
+{
+    "question": "The question",
+    "answer": {
+        "direct": "Direct answer to the question",
+        "choices": [
+            "Choice 0",
+            "Choice 1",
+            "Choice 2",
+            "Choice 3",
+            ...
+        ],
+        "right_choice": 0 # the index of the correct choice
+    },
+    "related_objs_acts": [
+        "object/action 0",
+        "object/action 1",
+        "object/action 2",
+        ... # key objects and actions in the video used to generate questions
+    ],
+    "related_subgraph": {}, # a knowledge graph of the video
+    "video": "video_id",
+    "video_path": "relative path to video",
+    "rationale": "rationale for the answer",
+    "time_slot": [
+        start_time,
+        end_time
+    ]
+}
+```
+See `example_question.json` for a better understanding of the format.
+
+## Download YouCook2
+
+1. Install pytube with `pip install pytube`
+2. Download YouCook2 with `download_YouCook2.py` (put `splits` folder in the same directory)
+3. Organize `QAs_with_rationale_for_pub_corrected.json` and downloaded data as follows:
+```
+data/
+├── QAs_with_rationale_for_pub_corrected.json
+├── videos_mp4/
+```
 
 ## Citation
 Please link back and cite the work if you would like to use the website template.
