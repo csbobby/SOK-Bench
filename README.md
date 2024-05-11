@@ -22,7 +22,7 @@ With a corpus of both explicit situated facts and implicit commonsense, we gener
 <img src="imgs/fig_overview.png" width="800" >
 </div>
 
-## Benchmark QA Example
+## Benchmark Example
 
 <div align="center">
 <img src="imgs/fig_qa_examples.png" width="800" >
