@@ -29,10 +29,11 @@ With a corpus of both explicit situated facts and implicit commonsense, we gener
 </div>
 
 ## Data Download
-Please download the dataset ```sok-bench.json``` from [Google Drive](https://drive.google.com/file/d/1jWPY4yF-iBChvfN4MmlhXRhUJLySXRne/view?usp=sharing)
+Download the SOK-Bench dataset [```sok-bench_v1.json```](https://drive.google.com/file/d/1jWPY4yF-iBChvfN4MmlhXRhUJLySXRne/view?usp=sharing). 
 
 ## Dataset Format
-We briefly describe the format in ```sok-bench.json```(downloaded from Google Drive) here. The collection of questions is organized as a dict:
+Here, we introduce the data format of the SOK-Bench.
+The dataset file ```sok-bench.json``` is a collection of data samples which organized as a json dict:
 ```python
 {"type": list_of_questions_in_that_type}
 ```
@@ -67,7 +68,9 @@ Each question itself is a dict with the following entries:
     ]
 }
 ```
-See [`example_question.json`](data/example_question.json) for a better understanding of the format.
+Here is a data sample [`example_question.json`](data/example_question.json) for a better and quick exploration of the data format.
+
+
 ## Video Source 
 ### YouCook2
 
