@@ -69,17 +69,6 @@ Each question itself is a dict with the following entries:
 ```
 See `example_question.json` for a better understanding of the format.
 
-## Download YouCook2
-
-1. Install pytube with `pip install pytube`
-2. Download YouCook2 with `download_YouCook2.py` (put `splits` folder in the same directory)
-3. Organize `QAs_with_rationale_for_pub_corrected.json` and downloaded data as follows:
-```
-data/
-├── QAs_with_rationale_for_pub_corrected.json
-├── videos_mp4/
-```
-
 ## Citation
 Please link back and cite the work if you would like to use the website template.
 ```BibTeX
