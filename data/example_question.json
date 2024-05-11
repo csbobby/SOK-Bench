@@ -1,0 +1,591 @@
+{
+    "question": "If the person did not use the ingredient, what would happen if they added chopped daikon radish to the pot?",
+    "answer": {
+        "direct": "The soup would lack the savory and rich taste that something broth brings to the dish.",
+        "choices": [
+            "The soup would lose its signature umami flavor and depth that something provides.",
+            "The soup would lack the aromatic and fresh taste that something provide as a garnish.",
+            "The soup would lack the texture and taste provided by something.",
+            "The soup would lack the savory and rich taste that something broth brings to the dish."
+        ],
+        "right_choice": 3
+    },
+    "related_objs_acts": [
+        "wakame seaweed",
+        "miso",
+        "scallions",
+        "dashi",
+        "add dashi and chopped daikon radish to a pot"
+    ],
+    "time_slot": [
+        73,
+        249
+    ],
+    "related_subgraph": {
+        "background": {
+            "preparation": "Miso soup is traditionally made by dissolving miso paste in dashi, a fish stock. The miso paste is typically made from fermented soybeans, rice, or barley. The dashi provides a savory and umami flavor to the soup. Tofu, seaweed, and scallions are commonly added to enhance the taste and texture of the soup. The ingredients are simmered together until well combined, and the soup is then served hot."
+        },
+        "object": {
+            "dashi": {
+                "physical": {
+                    "color": "light brown",
+                    "taste": "savory and umami",
+                    "odor": "aromatic"
+                },
+                "chemical": {
+                    "composition": "combination of water, kombu (dried kelp), and katsuobushi (dried bonito flakes)",
+                    "umami_compounds": "inosinic acid and glutamic acid"
+                },
+                "composition": {
+                    "main_ingredients": [
+                        "kombu (dried kelp)",
+                        "katsuobushi (dried bonito flakes)"
+                    ],
+                    "optional_ingredients": [
+                        "dried shiitake mushrooms",
+                        "dried anchovies",
+                        "dried sardines"
+                    ]
+                },
+                "production": {
+                    "method": "infusion or steeping of kombu and katsuobushi in hot water",
+                    "variations": "different ratios and combinations of ingredients"
+                },
+                "cultural": {
+                    "origin": "Japanese cuisine",
+                    "significance": "fundamental ingredient in many Japanese dishes",
+                    "traditional_preparation": "careful selection and preparation of high-quality ingredients"
+                },
+                "usage": {
+                    "culinary": "base for soups, sauces, and marinades",
+                    "seasoning": "enhancing the flavor of various dishes",
+                    "versatility": "used in traditional and modern Japanese cuisine"
+                },
+                "interact with other object": {
+                    "soup stock": "enhancing flavor",
+                    "marinade": "adding depth to",
+                    "stir-fry": "providing umami to",
+                    "sauce": "boosting taste of",
+                    "braising liquid": "infusing richness into"
+                },
+                "what if no obj": {
+                    "subject": [
+                        "soup"
+                    ],
+                    "consequence": [
+                        "lack savory and rich taste",
+                        "that dashi broth brings to the dish"
+                    ]
+                },
+                "contribution": {
+                    "subject": [
+                        "provides"
+                    ],
+                    "target": [
+                        "broth base"
+                    ],
+                    "consequence": [
+                        "rich and flavorful",
+                        "for the miso soup",
+                        "adding depth to its taste."
+                    ]
+                }
+            },
+            "wakame seaweed": {
+                "physical": {
+                    "color": "dark green to brown",
+                    "texture": "thin and tender",
+                    "shape": "ribbon-like or leafy",
+                    "size": "typically 30-60 cm in length"
+                },
+                "chemical": {
+                    "composition": "rich in vitamins, minerals, and dietary fiber",
+                    "nutritional_value": {
+                        "protein": "10-20%",
+                        "carbohydrates": "30-50%",
+                        "lipids": "1-5%",
+                        "minerals": "calcium, iron, iodine, magnesium, potassium, sodium, zinc",
+                        "vitamins": "vitamin A, vitamin C, vitamin E, vitamin K, B vitamins"
+                    },
+                    "phytochemicals": "fucoxanthin, fucoidan"
+                },
+                "composition": {
+                    "main_components": [
+                        "polysaccharides",
+                        "proteins",
+                        "lipids",
+                        "minerals",
+                        "vitamins"
+                    ]
+                },
+                "production": {
+                    "method": "cultivation in seaweed farms or wild harvesting",
+                    "harvesting_season": "typically in spring or summer"
+                },
+                "cultural": {
+                    "origin": "East Asia, particularly Japan and Korea",
+                    "culinary_traditions": "used in various traditional dishes like miso soup and seaweed salads",
+                    "symbolism": "associated with longevity and good health"
+                },
+                "usage": {
+                    "culinary": "used in soups, salads, sushi, and other dishes",
+                    "health_food": "considered a nutritious and low-calorie food",
+                    "cosmetic": "used in skincare products for its moisturizing and anti-aging properties",
+                    "fertilizer": "used as a natural fertilizer in agriculture",
+                    "alginate_production": "source of alginate, a thickening and stabilizing agent in food and other industries"
+                },
+                "interact with other object": {
+                    "salads": "adding texture and flavor to",
+                    "soups": "enhancing umami in",
+                    "sushi rolls": "wrapping around fillings in",
+                    "pickles": "adding a unique taste to",
+                    "stir-fries": "adding a nutritious element to"
+                },
+                "what if no obj": {
+                    "subject": [
+                        "soup"
+                    ],
+                    "consequence": [
+                        "lack texture and taste provided by wakame seaweed"
+                    ]
+                },
+                "contribution": {
+                    "consequence": [
+                        "adds texture and a subtle oceanic flavor"
+                    ],
+                    "target": [
+                        "miso soup"
+                    ]
+                }
+            },
+            "daikon radish": {
+                "physical": {
+                    "shape": "long and cylindrical",
+                    "color": "white",
+                    "texture": "crisp and crunchy",
+                    "size": "can grow up to 18 inches in length",
+                    "weight": "varies, typically between 1-2 pounds"
+                },
+                "chemical": {
+                    "chemical_formula": "C6H12O6",
+                    "molecular_weight": "180.16 g/mol",
+                    "taste": "mild and slightly sweet",
+                    "odor": "mild and earthy"
+                },
+                "composition": {
+                    "main_components": "water, carbohydrates, fiber",
+                    "nutrients": {
+                        "vitamin_C": "high content",
+                        "potassium": "good source",
+                        "calcium": "moderate amount",
+                        "folate": "moderate amount"
+                    }
+                },
+                "production": {
+                    "cultivation": "grown in various regions worldwide",
+                    "harvesting": "typically harvested in late autumn or early winter"
+                },
+                "cultural": {
+                    "origin": "originated in East Asia",
+                    "culinary_traditions": "widely used in Asian cuisine",
+                    "symbolism": "associated with good luck and prosperity in some cultures"
+                },
+                "usage": {
+                    "culinary": "eaten raw, pickled, or cooked in various dishes such as salads, stir-fries, soups",
+                    "fermentation": "used in making traditional fermented foods like kimchi",
+                    "medicinal": "used in traditional medicine for digestive health and detoxification",
+                    "animal_feed": "used as feed for livestock and poultry"
+                },
+                "interact with other object": {
+                    "skin": "brightening",
+                    "hair": "conditioning",
+                    "stomach ache": "relieving",
+                    "inflammation": "reducing",
+                    "digestion": "aiding"
+                },
+                "what if no obj": {
+                    "subject": [
+                        "soup"
+                    ],
+                    "consequence": [
+                        "lose refreshing and slightly spicy flavor",
+                        "that daikon radish adds"
+                    ]
+                },
+                "contribution": {
+                    "consequence": [
+                        "adds a mild, refreshing taste and a crunchy texture"
+                    ],
+                    "target": [
+                        "miso soup"
+                    ]
+                }
+            },
+            "miso": {
+                "physical": {
+                    "color": "varying shades of brown",
+                    "texture": "smooth paste",
+                    "odor": "distinctive fermented aroma",
+                    "taste": "salty, savory, and umami"
+                },
+                "chemical": {
+                    "composition": "fermented soybeans, grains (such as rice or barley), salt, and koji (Aspergillus oryzae)",
+                    "fermentation_process": "enzymatic breakdown of proteins and carbohydrates",
+                    "enzymes": "proteases, amylases, and lipases"
+                },
+                "composition": {
+                    "main_components": [
+                        "proteins",
+                        "carbohydrates",
+                        "fats",
+                        "fiber",
+                        "vitamins",
+                        "minerals"
+                    ],
+                    "nutritional_value": "rich in essential amino acids, probiotics, and antioxidants"
+                },
+                "production": {
+                    "method": "fermentation and aging process",
+                    "steps": [
+                        "soaking and cooking soybeans and grains",
+                        "inoculating with koji culture",
+                        "fermentation in large vats or barrels",
+                        "aging for several months to years"
+                    ],
+                    "variations": "different types based on ingredients and fermentation duration"
+                },
+                "cultural": {
+                    "origin": "Japan",
+                    "traditional_importance": "staple in Japanese cuisine",
+                    "symbolism": "represents the essence of umami flavor",
+                    "rituals": "used in religious ceremonies and festivals"
+                },
+                "usage": {
+                    "culinary": "soup base, seasoning, marinade, condiment",
+                    "fermentation": "used as a starter culture for other fermented foods",
+                    "health_benefits": "promotes digestion, boosts immune system, and provides beneficial bacteria",
+                    "vegan_alternative": "substitute for meat or fish flavor in vegetarian and vegan dishes"
+                },
+                "interact with other object": {
+                    "marinade": "flavoring meats and vegetables",
+                    "glaze": "adding depth to roasted vegetables",
+                    "soup base": "enhancing broth flavors",
+                    "salad dressing": "creating a savory dressing",
+                    "sauce": "adding umami to stir-fries"
+                },
+                "what if no obj": {
+                    "subject": [
+                        "soup"
+                    ],
+                    "consequence": [
+                        "lose signature umami flavor and depth",
+                        "that miso provides"
+                    ]
+                },
+                "contribution": {
+                    "target": [
+                        "the soup"
+                    ],
+                    "consequence": [
+                        "adds a savory and umami flavor",
+                        "enhancing its overall taste profile."
+                    ]
+                }
+            },
+            "scallions": {
+                "contribution": {
+                    "target": [
+                        "miso soup"
+                    ],
+                    "consequence": [
+                        "add a fresh and aromatic flavor",
+                        "enhancing its overall taste."
+                    ]
+                },
+                "physical": {
+                    "appearance": "long, slender green stalks with white bulbs",
+                    "texture": "crisp and crunchy",
+                    "taste": "mild onion flavor"
+                },
+                "chemical": {
+                    "chemical_formula": "Not applicable",
+                    "chemical_structure": "Contains various organic compounds such as sulfur compounds and flavonoids"
+                },
+                "composition": {
+                    "main_components": "Fibers, vitamins (A, C, K), minerals (calcium, iron, potassium)",
+                    "phytochemicals": "Allicin, quercetin, kaempferol"
+                },
+                "production": {
+                    "cultivation": "Grown from seeds or transplants",
+                    "growing_conditions": "Requires well-drained soil and full sun",
+                    "harvesting": "Leaves and bulbs are harvested when mature"
+                },
+                "cultural": {
+                    "origin": "Asia",
+                    "culinary_traditions": "Used in various Asian cuisines",
+                    "symbolism": "Associated with freshness and vitality"
+                },
+                "usage": {
+                    "culinary": "Used as a garnish, in salads, stir-fries, soups, and sauces",
+                    "flavoring": "Adds a mild onion flavor to dishes",
+                    "medicinal": "Used in traditional medicine for its potential health benefits",
+                    "folklore": "Believed to have cleansing and detoxifying properties"
+                },
+                "interact with other object": {
+                    "soup": "garnishing",
+                    "stir-fries": "adding flavor to",
+                    "dips": "enhancing taste of",
+                    "marinades": "infusing flavor into",
+                    "salads": "adding freshness to"
+                },
+                "what if no obj": {
+                    "subject": [
+                        "soup"
+                    ],
+                    "consequence": [
+                        "lack aromatic and fresh taste",
+                        "scallions provide as a garnish"
+                    ]
+                }
+            },
+            "tofu": {
+                "contribution": {
+                    "subject": [
+                        ""
+                    ],
+                    "target": [
+                        "miso soup"
+                    ],
+                    "consequence": [
+                        "provides a creamy and protein-rich element",
+                        "adding a satisfying texture."
+                    ]
+                },
+                "physical": {
+                    "texture": "soft and smooth",
+                    "color": "white or pale yellow",
+                    "shape": "block or curd-like",
+                    "moisture_content": "high moisture content"
+                },
+                "chemical": {
+                    "composition": "coagulated soy milk",
+                    "main_component": "soy protein",
+                    "other_components": "water, fat, carbohydrates, minerals",
+                    "nutritional_profile": "low in saturated fat and cholesterol, high in protein and calcium"
+                },
+                "composition": {
+                    "main_ingredient": "soybeans",
+                    "coagulant": "calcium sulfate or magnesium chloride"
+                },
+                "production": {
+                    "method": "soy milk extraction, coagulation, and pressing",
+                    "traditional_method": "handmade or small-scale production",
+                    "industrial_method": "large-scale production with automated processes"
+                },
+                "cultural": {
+                    "origin": "China",
+                    "history": "dating back over 2,000 years",
+                    "significance": "important protein source in vegetarian and vegan diets",
+                    "symbolism": "associated with health, longevity, and simplicity"
+                },
+                "usage": {
+                    "culinary": "versatile ingredient in various dishes (stir-fries, soups, salads)",
+                    "vegetarian_and_vegan_cooking": "popular meat substitute",
+                    "desserts": "used in sweet dishes (puddings, smoothies)",
+                    "global_cuisine": "used in Asian, Western, and fusion cuisines"
+                },
+                "interact with other object": {
+                    "desserts": "making creamy and vegan options",
+                    "smoothies": "adding protein and creaminess",
+                    "salads": "adding texture and protein",
+                    "stir-fries": "substituting for meat or adding protein",
+                    "sandwiches": "creating a vegetarian or vegan filling"
+                },
+                "what if no obj": {
+                    "subject": [
+                        "soup"
+                    ],
+                    "consequence": [
+                        "missing the soft and creamy texture that tofu adds to the dish"
+                    ]
+                }
+            }
+        },
+        "action": {
+            "add dashi and chopped daikon radish to a pot": {
+                "things related": "Dashi",
+                "ways of": "Adding dashi to a pot",
+                "purpose": "To create a flavorful broth with daikon radish"
+            },
+            "tofu": {
+                "what if no act": {
+                    "subject": [
+                        "miso soup"
+                    ],
+                    "consequence": [
+                        "lack essential flavors of dashi",
+                        "lack texture and taste of chopped daikon radish"
+                    ]
+                },
+                "purpose": {
+                    "target": [
+                        "the flavor"
+                    ],
+                    "relation": [
+                        "enhance"
+                    ],
+                    "consequence": [
+                        "add a subtle sweetness to the miso soup."
+                    ]
+                }
+            },
+            "add some tofu and wakame seaweed": {
+                "things related": "Tofu",
+                "ways of": "Adding tofu and wakame seaweed to a dish",
+                "purpose": "To enhance the flavor and texture of the dish"
+            },
+            "turn off the heat and add miso to the mixture": {
+                "things related": "Heat source",
+                "ways of": "Turning off the heat",
+                "purpose": "To stop the cooking process and incorporate miso flavor into the mixture"
+            },
+            "pour the soup in a bowl and sprinkle scallions": {
+                "things related": "Soup",
+                "ways of": "Using a ladle to pour the soup into a bowl",
+                "purpose": "To serve the soup in a bowl and add flavor with scallions"
+            },
+            "turn on the heat to warm up the soup": {
+                "things related": "Soup",
+                "ways of": "Turning on the heat",
+                "purpose": "To warm up the soup"
+            }
+        },
+        "obj_interaction": {
+            "miso<AND>dashi": {
+                "subject": [
+                    "miso"
+                ],
+                "target": [
+                    "dashi"
+                ],
+                "relation": [
+                    "interacts with"
+                ],
+                "consequence": [
+                    "added to the mixture after turning off the heat",
+                    "combining their flavors",
+                    "creating a savory and umami-rich soup base"
+                ]
+            },
+            "dashi<AND>wakame seaweed": {
+                "subject": [
+                    "Dashi"
+                ],
+                "consequence": [
+                    "enhances the umami flavor of miso soup"
+                ],
+                "target": [
+                    "wakame seaweed"
+                ],
+                "relation": [
+                    "adds"
+                ],
+                "additional_info": [
+                    "texture and a nutritious element to the dish"
+                ]
+            },
+            "dashi<AND>daikon radish": {
+                "subject": [
+                    "Dashi"
+                ],
+                "consequence": [
+                    "enhances the flavor of miso soup"
+                ],
+                "target": [
+                    "mild and slightly sweet taste"
+                ],
+                "relation": [
+                    "adds"
+                ],
+                "additional_info": [
+                    "providing texture and nutrients to the dish"
+                ]
+            },
+            "dashi<AND>scallions": {
+                "subject": [
+                    "Dashi"
+                ],
+                "consequence": [
+                    "freshness and mild onion flavor to the dish"
+                ],
+                "target": [
+                    "scallions"
+                ],
+                "relation": [
+                    "add"
+                ]
+            },
+            "miso<AND>wakame seaweed": {
+                "subject": [
+                    "miso"
+                ],
+                "target": [
+                    "wakame seaweed"
+                ],
+                "relation": [
+                    "interacts with"
+                ],
+                "consequence": [
+                    "enhancing umami flavors",
+                    "adding a nutritious element to the soup"
+                ]
+            },
+            "miso<AND>daikon radish": {
+                "subject": [
+                    "miso"
+                ],
+                "target": [
+                    "daikon radish"
+                ],
+                "relation": [
+                    "interacts with"
+                ],
+                "consequence": [
+                    "adding flavor and depth to the miso soup",
+                    "providing a crisp and crunchy texture to the dish"
+                ]
+            },
+            "miso<AND>scallions": {
+                "subject": [
+                    "Miso",
+                    "scallions"
+                ],
+                "relation": [
+                    "interact in"
+                ],
+                "consequence": [
+                    "adding depth of flavor",
+                    "enhancing the overall taste with the umami-rich miso complementing the mild onion flavor of scallions."
+                ]
+            },
+            "miso<AND>tofu": {
+                "subject": [
+                    "miso"
+                ],
+                "target": [
+                    "tofu"
+                ],
+                "relation": [
+                    "interacts with"
+                ],
+                "consequence": [
+                    "combining flavors and textures",
+                    "miso adds a salty and savory taste while tofu contributes a soft and smooth texture to the miso soup."
+                ]
+            }
+        }
+    },
+    "video": "Nlo-leQLQqs",
+    "video_path": "YouCook2/raw_videos/training/316/Nlo-leQLQqs.mp4",
+    "rationale": "{     \"1\": \"Identify the key ingredient mentioned in the question: \"The person add something and chopped daikon radish to a pot.\"\",     \"2\": \"Recall the cooking steps from the video: Step 1 (from 73 sec to 124 sec): add dashi and chopped daikon radish to a pot.\",     \"3\": \"Understand the role of dashi in Japanese cuisine: Dashi is a fundamental ingredient in Japanese cooking, providing savory umami flavor and depth to dishes.\",     \"4\": \"Analyze the consequences of not using dashi in miso soup: If the person did not use dashi, the soup would lack the savory and rich taste that dashi broth brings to the dish.\",     \"5\": \"Review the choices provided: The correct answer should reflect the importance of dashi in enhancing the flavor profile of the miso soup.\",     \"6\": \"Eliminate the incorrect choices: The other options do not accurately describe the specific role of dashi in the context of miso soup.\",     \"7\": \"Select the correct answer: \"The soup would lack the savory and rich taste that something broth brings to the dish.\"\" }"
+}
