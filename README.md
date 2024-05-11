@@ -67,7 +67,7 @@ Each question itself is a dict with the following entries:
     ]
 }
 ```
-See `example_question.json` for a better understanding of the format.
+See [`example_question.json`](data/example_question.json) for a better understanding of the format.
 ## Video Source 
 ### YouCook2
 
