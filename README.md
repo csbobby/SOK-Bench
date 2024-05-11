@@ -31,7 +31,7 @@ With a corpus of both explicit situated facts and implicit commonsense, we gener
 ## Download Benchmark
 Please download the dataset ```sok-benmark.json``` from [Google Drive](https://drive.google.com/file/d/1jWPY4yF-iBChvfN4MmlhXRhUJLySXRne/view?usp=sharing)
 
-## Benchmark format
+## Dataset Format
 We briefly describe the format in ```sok-benmark.json```(downloaded from Google Drive) here. The collection of questions is organized as a dict:
 ```python
 {"type": list_of_questions_in_that_type}
@@ -68,6 +68,19 @@ Each question itself is a dict with the following entries:
 }
 ```
 See `example_question.json` for a better understanding of the format.
+## Video Source 
+### YouCook2
+
+1. Install pytube with `pip install pytube`
+2. Download YouCook2 with `download_YouCook2.py` (put `splits` folder in the same directory)
+3. Organize `QAs_with_rationale_for_pub_corrected.json` and downloaded data as follows:
+```
+data/
+├── QAs_with_rationale_for_pub_corrected.json
+├── videos_mp4/
+```
+### HOMAGE
+The videos of HOMAGE dataset provided on their [website](https://homeactiongenome.org/). Please refer to their [download page](https://homeactiongenome.org/download.html) for more information.
 
 ## Citation
 Please link back and cite the work if you would like to use the website template.
