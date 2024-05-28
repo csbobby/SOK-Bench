@@ -1,5 +1,5 @@
 # SOK-Bench
-**[CVPR 2024] SOK-Bench: A Situated Video Reasoning Benchmark with Aligned Open-World Knowledge**
+**[CVPR 2024] [SOK-Bench: A Situated Video Reasoning Benchmark with Aligned Open-World Knowledge](https://arxiv.org/abs/2405.09713)**
 
 <!-- 
 Reasoning from visual dynamics scenes has many real-world applications. However, existing video reasoning benchmarks are still inadequate since they were mainly designed for factual or situated reasoning and rarely involve broader knowledge in the real world.
